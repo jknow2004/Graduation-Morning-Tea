@@ -55,7 +55,6 @@
         <!-- Main Invitation Card -->
         <div class="bg-white rounded-3xl card-shadow hover-lift p-8 md:p-12 text-center sparkle relative">
 
-
             <!-- Decorative Header -->
             <div class="mb-8">
                 <div class="text-6xl mb-4">🎓</div>
@@ -77,8 +76,6 @@
                 Graduation Morning Tea
             </h2>
 
-
-
             <!-- Event Details -->
             <div class="bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-6 md:p-8 mb-8">
                 <div class="grid md:grid-cols-2 gap-6 text-left">
@@ -86,7 +83,7 @@
                         <div class="text-2xl mr-4">📅</div>
                         <div>
                             <p class="font-semibold text-gray-800">Date</p>
-                            <p class="text-gray-600">Friday, September 20th</p>
+                            <p class="text-gray-600">Monday, September 22nd, 2025</p>
                         </div>
                     </div>
                     
@@ -153,8 +150,8 @@
             // Event details
             const eventDetails = {
                 title: 'Graduation Morning Tea Celebration',
-                startDate: '20240920T100000', // September 20, 2024, 10:00 AM
-                endDate: '20240920T103000',   // September 20, 2024, 10:30 AM
+                startDate: '20250922T100000', // September 22, 2025, 10:00 AM
+                endDate: '20250922T103000',   // September 22, 2025, 10:30 AM
                 description: 'Join me for a special morning tea to celebrate my graduation milestone. Your presence would make this celebration even more meaningful!',
                 location: 'Location to be confirmed - Details will follow'
             };
@@ -167,7 +164,7 @@
         }
 
         function shareInvitation() {
-            const shareText = "You're invited to my Graduation Morning Tea on September 20th! 🎓 Join me for a special celebration from 10:00 AM - 10:30 AM.";
+            const shareText = "You're invited to my Graduation Morning Tea on Monday, September 22nd, 2025! 🎓 Join me for a special celebration from 10:00 AM - 10:30 AM.";
             
             if (navigator.share) {
                 // Use native sharing if available
@@ -191,10 +188,6 @@
             }
         }
 
-
-
-
-
         // Add some interactive sparkle effects
         document.addEventListener('DOMContentLoaded', function() {
             const card = document.querySelector('.sparkle');
@@ -204,9 +197,7 @@
                 this.offsetHeight; // Trigger reflow
                 this.style.animation = null;
             });
-
-
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97e649a6f35cd72d',t:'MTc1Nzc1MjI4MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
